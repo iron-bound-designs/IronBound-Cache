@@ -9,5 +9,10 @@
             "email": "info@ironbounddesigns.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "IronBound\\Cache\\": "src/"
+        }
+    }
 }
